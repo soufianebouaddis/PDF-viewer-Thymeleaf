@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link th:href="@{/viewer.css}" rel="stylesheet"></link>
+    <title>PDF Viewer</title>
+</head>
+<body>
+<div class="container">
+    <h2>PDF Viewer</h2>
+    <iframe th:src="@{/pdf/{fileName}(fileName=${fileName})}" title="PDF Viewer"></iframe>
+    <div class="button-container">
+        <a href="/" class="button">Upload Another PDF</a>
+    </div>
+</div>
+</body>
+</html>
