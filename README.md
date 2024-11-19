@@ -18,8 +18,8 @@ This is a PDF viewer web application built with Spring Boot and Thymeleaf. It al
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/pdf-viewer.git
-   cd pdf-viewer
+   git clone https://github.com/soufianebouaddis/PDF-viewer-Thymeleaf.git
+   cd PDF-viewer-Thymeleaf
 2. Clean install:
    ```bash
    mvn clean install
